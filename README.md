@@ -22,15 +22,15 @@ This scrapes a piece of content you have open in DEVONthink Pro, and looks for g
 
 Following the 'Conventions to be of use', this can be used to assign simple ontologies or taxonomies of tags against items quickly and easily, saving you from developing ugly and inflexible tagging patterns - which are useful in and of themselves in parallel with this.
 
-This is useful if you have a group hierarchy of    
+This is useful if you have a group hierarchy of  
 
-* Companies    
-	 * Organised by sector    
-		   * Whose Names become Leaf Nodes    
+* Companies
+	 * Organised by sector
+		   * Whose Names become Leaf Nodes
 		* And are groups you may want to classify items into
-* People     
-	* Organised by activities    
-		* Whose names become Leaf Nodes    
+* People
+	* Organised by activities
+		* Whose names become Leaf Nodes
 
 ...or any similar hierarchical group structures for which you may want to classify items into, and whose hierarchies are set in DEVONthink.
 
@@ -40,10 +40,11 @@ The use of concrete tags, rather than full-text search, makes this a particularl
 
 ## Conventions to be of use.
 
-1. You're using DEVONthink Pro (2).
-2. Your database does *not* exclude Groups from Tagging.    (you can check this by looking at the menu *File*→*Database Properties*→*Your Database Name*  
+1. You're runninh macOS High Sierra (10.13); older versions of macOS may work, but are untested.
+2. You're using DEVONthink Pro (2).
+3. Your database does *not* exclude Groups from Tagging.    (you can check this by looking at the menu *File*→*Database Properties*→*Your Database Name*  
 	![How to tell if your database allows Groups to be Tagged][image-1]
-3. You have a hierarchical tree of *Groups* who are set to  *Exclude from Classification* and whose names begin with Capital Letters or numbers, and are likely to be found in the texts you wish to auto-classify.  
+4. You have a hierarchical tree of *Groups* who are set to  *Exclude from Classification* and whose names begin with Capital Letters or numbers, and are likely to be found in the texts you wish to auto-classify.  
 	![A hierarchy of Groups with Exclude from Tagging set][image-2]
 
 ## Installation
@@ -104,7 +105,7 @@ Final thanks to cgrunenberg who said it would be easy. When Houthakker and BLUEF
 
 No warranty whatsover -  If it doesn't do what you expect it to, fix it, flag it, or stop using it. The description of the software is a description of how it is intended to operate, and guarantees cannot be made for how it will work under all circumstances, systems, and computers. You are free to inspect the code before usage, and as ever, making a backup of your data before running it the first time is advisable. With this said, it only uses public interfaces provided by macOS and DEVONthink Pro, and only adds tags, and saves a JSON text file to disk.
 
--------
+---- 
 
 *Version 1.0, 2017-10-09 22:25:00*
 
