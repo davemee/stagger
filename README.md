@@ -1,4 +1,6 @@
-# stagger
+# Stagger
+
+<img alt="Stagger Icon" src="images-readme/Stagger.png" width=200px height=200px/>
 
 The Stupid Tagger for DEVONthink Pro (2)[^1].
 
@@ -6,7 +8,7 @@ Stagger looks at the selected piece of content and tries to suggest groups in yo
 
 It does not, in any way, aim to replicate the smart AI of DEVONtechnologies; it simply matches strings against Group names it finds. It only looks at leaf node groups, and does not learn (or even *attempt* to learn) about your hierarchy or content. 
 
-What it does do is suggest as many matching tags as it can in one fell swoop, and will tag against as many as you want. This will effectively *replicate* the item into multiple locations at once. This can help manage a structured hierarchy of tags, and ease the paralysis of putting content in place based around a known taxonomy.
+What it *does* do is suggest as many matching tags as it can in one fell swoop, and will tag against as many as you want. This will effectively *replicate* the item into multiple locations at once. This can help manage a structured hierarchy of tags, and ease the paralysis of putting content in place based around a known taxonomy.
 
 It's up to you to establish and build that taxonomy, however. This will dictate the effectiveness of this tool.
 
@@ -41,8 +43,14 @@ The use of concrete tags, rather than full-text search, makes this a particularl
 1. You're using DEVONthink Pro (2).
 2. Your database does *not* exclude Groups from Tagging.    (you can check this by looking at the menu *File*→*Database Properties*→*Your Database Name*  
 	![How to tell if your database allows Groups to be Tagged][image-1]
-3. You have a hierachical tree of *Groups* who are set to  *Exclude from Classification* and whose names begin with Capital Letters or numbers, and are likely to be found in the texts you wish to auto-classify.  
+3. You have a hierarchical tree of *Groups* who are set to  *Exclude from Classification* and whose names begin with Capital Letters or numbers, and are likely to be found in the texts you wish to auto-classify.  
 	![A hierarchy of Groups with Exclude from Tagging set][image-2]
+
+## Installation
+
+Download the stagger.scpt and stick it somewhere.
+
+If you place it in `~/Library/Application Support/DEVONthink Pro 2/Scripts`, it will appear in your DEVONthink Pro 2 menu. If you place it in  `~/Library/Application Support/DEVONthink Pro 2/Scripts/Toolbar`, heaven forbid, you can use it when you you customise the toolbar in DEVONthink Pro 2.
 
 ## Usage
 
@@ -53,12 +61,6 @@ The use of concrete tags, rather than full-text search, makes this a particularl
 4. Click 'Cancel' to abort or 'OK' to confirm.
 5. The selected tags will be assigned to the item in DEVONthink, along with the parent items of those groups - this will allow you to assign the hierarchy from your Group Taxonomy at once.
 6. You'll know it's worked as you should see one or more grey tag items appear at the bottom of your content (if the tag viewer is open - press ⌃⌥⌘T to toggle the tag display)
-
-## Installation
-
-Download the stagger.scpt and stick it somewhere.
-
-If you place it in `~/Library/Application Support/DEVONthink Pro 2/Scripts`, it will appear in your DEVONthink Pro 2menu. If you place it in  `~/Library/Application Support/DEVONthink Pro 2/Scripts/Toolbar`, heaven forbid, you can use it when you you customise the toolbar in DEVONthink Pro 2.
 
 ### Electronic Ephemera
 
@@ -102,6 +104,10 @@ Final thanks to cgrunenberg who said it would be easy. When Houthakker and BLUEF
 
 No warranty whatsover -  If it doesn't do what you expect it to, fix it, flag it, or stop using it. The description of the software is a description of how it is intended to operate, and guarantees cannot be made for how it will work under all circumstances, systems, and computers. You are free to inspect the code before usage, and as ever, making a backup of your data before running it the first time is advisable. With this said, it only uses public interfaces provided by macOS and DEVONthink Pro, and only adds tags, and saves a JSON text file to disk.
 
+-------
+
+*Version 1.0, 2017-10-09 22:25:00*
+
 [^1]:	[http://www.devontechnologies.com/products/devonthink/devonthink-pro.html][1]
 
 [^2]:	[http://www.opencalais.com][2]
@@ -109,7 +115,7 @@ No warranty whatsover -  If it doesn't do what you expect it to, fix it, flag it
 [^3]:	This is not an endorsement of Google, Alphabet or their business practices.
 
 [1]:	http://www.devontechnologies.com/products/devonthink/devonthink-pro.html "DEVONthink Pro 2"
-[2]:	http://www.opencalais.com "Retuers Open Calais"
+[2]:	http://www.opencalais.com "Reuters Open Calais"
 [3]:	http://www.soma-zone.com/Ammonite/ "Ammonite"
 [4]:	mailto:davemee@gmail.com "davemee@gmail.com"
 [5]:	https://pixabay.com/en/users/Nikin-253338/?
