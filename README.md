@@ -76,30 +76,45 @@ It is advised to run this after making any changes to your Group hierarchy, as S
 2. Supplementary stamping with an 'autotagged by Stagger' tag (to make it easy to find and review Stagger tagged items)
 3. Better matching and recognition of tags
 
+### Please! Help!
+
+Suggestions, code fixes, patches, complete rewrites all welcome. *Really*, they are - I have no idea what I'm doing, but it seems to work. Fork, push request, or just email.
+
 ## Credits
 
-Icon by [Nikin ][4] distributed through [Pixabay][5] and used under their graceful adoption of a Creative Commons license.
+Hacked together by Dave Mee, August 2017. Email the author at [davemee@gmail.com][4][^3].
+
+If this saves you some trouble, and you wish to make a contribution, consider making a donation to a local animal welfare or vegan charity, or consider undertaking a few days of a meat, fish and dairy free diet. 
+
+Icon by [Nikin ][5] distributed through [Pixabay][6] and used under their graceful adoption of a Creative Commons license.
 
 ### The Actual Hard Bits of Code
 
-This project would not have been possible without the help of a few people on the DEVONthink forums - where you can pretty much watch the [evolution of this script play out, including the wild and esoteric mis-steps][6].
+This project would not have been possible without the help of a few people on the DEVONthink forums - where you can pretty much watch the [evolution of this script play out, including the wild and esoteric mis-steps][7].
 
 Mad JavaScript and JXA skills via the god-like Houthakker and ... well, he's not said *don't* distribute the good bits of this script.
 
 Other suggestions and pointers - particularly the if-I-knew-then-what-I-know-now lessons about AppleScript courtesy of BLUEFROG, a sage and wisened Automation adviser.
 
-Final thanks to cgrunenberg who said it would be easy. When houthakker and BLUEFROG wrote all the code, it was.
+Final thanks to cgrunenberg who said it would be easy. When Houthakker and BLUEFROG wrote all the code, it was.
+
+## Warranty
+
+No warranty whatsover -  If it doesn't do what you expect it to, fix it, flag it, or stop using it. The description of the software is a description of how it is intended to operate, and guarantees cannot be made for how it will work under all circumstances, systems, and computers. You are free to inspect the code before usage, and as ever, making a backup of your data before running it the first time is advisable. With this said, it only uses public interfaces provided by macOS and DEVONthink Pro, and only adds tags, and saves a JSON text file to disk.
 
 [^1]:	[http://www.devontechnologies.com/products/devonthink/devonthink-pro.html][1]
 
 [^2]:	[http://www.opencalais.com][2]
 
+[^3]:	This is not an endorsement of Google, Alphabet or their business practices.
+
 [1]:	http://www.devontechnologies.com/products/devonthink/devonthink-pro.html "DEVONthink Pro 2"
 [2]:	http://www.opencalais.com "Retuers Open Calais"
 [3]:	http://www.soma-zone.com/Ammonite/ "Ammonite"
-[4]:	https://pixabay.com/en/users/Nikin-253338/?
-[5]:	https://cdn.pixabay.com/photo/2017/03/16/04/16/tags-2148132_640.png?attachment,%20https://pixabay.com/en/tags-paper-tag-paper-label-2148132/
-[6]:	http://forum.devontechnologies.com/viewtopic.php?f=20&t=24937
+[4]:	mailto:davemee@gmail.com "davemee@gmail.com"
+[5]:	https://pixabay.com/en/users/Nikin-253338/?
+[6]:	https://cdn.pixabay.com/photo/2017/03/16/04/16/tags-2148132_640.png?attachment,%20https://pixabay.com/en/tags-paper-tag-paper-label-2148132/
+[7]:	http://forum.devontechnologies.com/viewtopic.php?f=20&t=24937
 
 [image-1]:	./images-readme/Exclude%20Groups%20from%20Tagging.png "Exclude Groups from Tagging"
 [image-2]:	images-readme/Excluded%20from%20Classification%20Group%20Hierarchy.png "Excluded from Classification Group Hierarchy"
