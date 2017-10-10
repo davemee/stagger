@@ -40,9 +40,9 @@ The use of concrete tags, rather than full-text search, makes this a particularl
 
 ## Conventions to be of use.
 
-1. You're runninh macOS High Sierra (10.13); older versions of macOS may work, but are untested.
+1. You're running macOS High Sierra (10.13); older versions of macOS may work, but are untested.
 2. You're using DEVONthink Pro (2).
-3. Your database does *not* exclude Groups from Tagging.    (you can check this by looking at the menu *File*→*Database Properties*→*Your Database Name*  
+3. Your database does *not* exclude Groups from Tagging.    (you can check this by looking at the menu *File*→*Database Properties*→*Your Database Name*)  
 	![How to tell if your database allows Groups to be Tagged][image-1]
 4. You have a hierarchical tree of *Groups* who are set to  *Exclude from Classification* and whose names begin with Capital Letters or numbers, and are likely to be found in the texts you wish to auto-classify.  
 	![A hierarchy of Groups with Exclude from Tagging set][image-2]
@@ -55,7 +55,7 @@ If you place it in `~/Library/Application Support/DEVONthink Pro 2/Scripts`, it 
 
 ## Usage
 
-1. Invoke Stagger, either through the scripts menu, the toolbar icon you added, or by running it from the finder (or your applicaiton launcher of preference).
+1. Invoke Stagger, either through the scripts menu, the toolbar icon you added, or by running it from the finder (or your application launcher of preference).
 2. The first time it runs, it will build an index of your groups - this can be a time consuming process, so Stagger caches it to disk as a preferences file.
 3. A window appears with matching terms highlighted. ⌘-click Groups you wish to deselect, or click then ⌘-click extra items to replace the selection.  
 	![The Stagger window in action][image-3]
@@ -103,11 +103,11 @@ Final thanks to cgrunenberg who said it would be easy. When Houthakker and BLUEF
 
 ## Warranty
 
-No warranty whatsover -  If it doesn't do what you expect it to, fix it, flag it, or stop using it. The description of the software is a description of how it is intended to operate, and guarantees cannot be made for how it will work under all circumstances, systems, and computers. You are free to inspect the code before usage, and as ever, making a backup of your data before running it the first time is advisable. With this said, it only uses public interfaces provided by macOS and DEVONthink Pro, and only adds tags, and saves a JSON text file to disk.
+No warranty whatsoever -  If it doesn't do what you expect it to, fix it, flag it, or stop using it. The description of the software is a description of how it is intended to operate, and guarantees cannot be made for how it will work under all circumstances, systems, and computers. You are free to inspect the code before usage, and as ever, making a backup of your data before running it the first time is advisable. With this said, it only uses public interfaces provided by macOS and DEVONthink Pro, and only adds tags, and saves a JSON text file to disk.
 
 ---- 
 
-*Version 1.0, 2017-10-09 22:25:00*
+*Version 1.0.01, 2017-10-10 13:44*
 
 [^1]:	[http://www.devontechnologies.com/products/devonthink/devonthink-pro.html][1]
 

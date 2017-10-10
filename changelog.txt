@@ -2,3 +2,6 @@ Version 1.0, 2017-10-09 22:25:00
 
 Initial release.
 
+Version 1.0.01, 2017-10-10 13:44
+
+Minor typo fixes in README.md
